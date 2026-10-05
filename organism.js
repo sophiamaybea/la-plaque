@@ -1,18 +1,18 @@
 (function () {
   const WORKS = [
-    { id: "carte", title: "Variation sur l'empêchement", line: "A map that refuses the shortcut. Saint-Marcel, la Valentine, the canal as a body approached by obstacle.", with: "with Julien Rodriguez", src: "media/carte.jpg", shape: "wide" },
-    { id: "plaque", title: "Plaque", line: "Lavis and membrane. A nucleus holding while the wash decides the edge.", src: "media/plaque.jpg", shape: "tall" },
-    { id: "fil", title: "Fil rose", line: "Thread on a stained ground. The drawing is sewn, not laid down.", src: "media/fil.jpg", shape: "tall" },
-    { id: "perle", title: "Perle et volute", line: "Ink, pastel, a glass bead caught in the spiral.", src: "media/perle.jpg", shape: "cell" },
-    { id: "geode", title: "Coupes", line: "Graphite rinds, fluorescent interiors. The rock opened like a cell.", src: "media/geode.jpg", shape: "squat" },
-    { id: "textile", title: "Textile concentrique", line: "Lace, floss, a rust ring. Cloth thinking in sections.", src: "media/textile.jpg", shape: "wide" },
-    { id: "semences", title: "Semences", line: "Denim as agar. Each seed a different stitch density.", src: "media/semences.jpg", shape: "tall" },
-    { id: "bleu", title: "Bleu et or", line: "Arcs, lattices, a gold rule. Architecture after the wash.", src: "media/bleu.jpg", shape: "tall" },
-    { id: "grille", title: "Grille de membranes", line: "The row as a method. Each oval a separate weather.", src: "media/grille.jpg", shape: "squat" },
-    { id: "bloom", title: "Bloom", line: "Pigment dropped and left to decide its own edge.", src: "media/bloom.jpg", shape: "cell" },
-    { id: "chambre", title: "Chambre", line: "A second grid, hotter. The plate repeating itself with a different hand.", src: "media/chambre.jpg", shape: "squat" },
-    { id: "figures", title: "Figures rencontrées", line: "Bodies at the edge of the plate. The canal has a public.", src: "media/figures.jpg", shape: "tall" },
-    { id: "humide", title: "Chambre humide", line: "Plastic, wet light, a face kept under film. The glass state, studied from the wrong side.", src: "media/chambre-humide.jpg", shape: "tall" }
+    { id: "carte", title: "Variation sur l'empêchement", line: "A map that refuses the shortcut. Saint-Marcel, la Valentine, the canal as a body approached by obstacle.", with: "with Julien Rodriguez", src: "https://cdn.jsdelivr.net/gh/sophiamaybea/la-plaque@main/media/carte.jpg", shape: "wide" },
+    { id: "plaque", title: "Plaque", line: "Lavis and membrane. A nucleus holding while the wash decides the edge.", src: "https://cdn.jsdelivr.net/gh/sophiamaybea/la-plaque@main/media/plaque.jpg", shape: "tall" },
+    { id: "fil", title: "Fil rose", line: "Thread on a stained ground. The drawing is sewn, not laid down.", src: "https://cdn.jsdelivr.net/gh/sophiamaybea/la-plaque@main/media/fil.jpg", shape: "tall" },
+    { id: "perle", title: "Perle et volute", line: "Ink, pastel, a glass bead caught in the spiral.", src: "https://cdn.jsdelivr.net/gh/sophiamaybea/la-plaque@main/media/perle.jpg", shape: "cell" },
+    { id: "geode", title: "Coupes", line: "Graphite rinds, fluorescent interiors. The rock opened like a cell.", src: "https://cdn.jsdelivr.net/gh/sophiamaybea/la-plaque@main/media/geode.jpg", shape: "squat" },
+    { id: "textile", title: "Textile concentrique", line: "Lace, floss, a rust ring. Cloth thinking in sections.", src: "https://cdn.jsdelivr.net/gh/sophiamaybea/la-plaque@main/media/textile.jpg", shape: "wide" },
+    { id: "semences", title: "Semences", line: "Denim as agar. Each seed a different stitch density.", src: "https://cdn.jsdelivr.net/gh/sophiamaybea/la-plaque@main/media/semences.jpg", shape: "tall" },
+    { id: "bleu", title: "Bleu et or", line: "Arcs, lattices, a gold rule. Architecture after the wash.", src: "https://cdn.jsdelivr.net/gh/sophiamaybea/la-plaque@main/media/bleu.jpg", shape: "tall" },
+    { id: "grille", title: "Grille de membranes", line: "The row as a method. Each oval a separate weather.", src: "https://cdn.jsdelivr.net/gh/sophiamaybea/la-plaque@main/media/grille.jpg", shape: "squat" },
+    { id: "bloom", title: "Bloom", line: "Pigment dropped and left to decide its own edge.", src: "https://cdn.jsdelivr.net/gh/sophiamaybea/la-plaque@main/media/bloom.jpg", shape: "cell" },
+    { id: "chambre", title: "Chambre", line: "A second grid, hotter. The plate repeating itself with a different hand.", src: "https://cdn.jsdelivr.net/gh/sophiamaybea/la-plaque@main/media/chambre.jpg", shape: "squat" },
+    { id: "figures", title: "Figures rencontrées", line: "Bodies at the edge of the plate. The canal has a public.", src: "https://cdn.jsdelivr.net/gh/sophiamaybea/la-plaque@main/media/figures.jpg", shape: "tall" },
+    { id: "humide", title: "Chambre humide", line: "Plastic, wet light, a face kept under film. The glass state, studied from the wrong side.", src: "https://cdn.jsdelivr.net/gh/sophiamaybea/la-plaque@main/media/chambre-humide.jpg", shape: "tall" }
   ];
 
   const MEDIA = [
