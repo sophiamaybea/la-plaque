@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>La plaque — variation sur l'empêchement</title>
+  <meta name="description" content="A living plate. The work divides row by row and changes what it is made of: wash, mesh, cell, stitch, glass, metal, glitter." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,460;0,9..144,560;1,9..144,360;1,9..144,520&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="organism.css" />
+</head>
+<body data-medium="wash">
+  <canvas id="chamber" aria-hidden="true"></canvas>
+  <div class="veil" aria-hidden="true"></div>
+  <div class="live" id="live"><i></i><span id="live-text">generation 01 · wash</span></div>
+  <button class="grow" id="grow" type="button">Divide</button>
+
+  <div class="frame">
+    <header class="mast">
+      <div>
+        <p class="eyebrow">Tentative d'approche · canal de Marseille</p>
+        <h1>la plaque<span>still dividing</span></h1>
+      </div>
+      <div class="mast-side">
+        <strong id="gen">01</strong>
+        <span id="live-text">wash</span>
+        <span id="count">0 cells</span>
+      </div>
+    </header>
+
+    <section class="opening">
+      <p class="lede">The canal will not be approached in a straight line. So the plate grows a row, then changes what the row is made of. <em>Mesh, wash, cell, stitch, glass, metal, glitter</em> — one organism, switching its technology.</p>
+      <p class="opening-note">Hover a cell to pull the chamber. Click to keep a specimen. The dial locks a medium. Scroll, or divide.</p>
+    </section>
+
+    <svg id="threads" aria-hidden="true"></svg>
+    <main id="plate" aria-label="Living plate"></main>
+  </div>
+
+  <aside class="ledger" id="ledger" aria-live="polite">
+    <p class="kicker" id="ledger-kicker">specimen</p>
+    <h2 id="ledger-title">Plaque</h2>
+    <p class="line" id="ledger-line"></p>
+    <p class="with" id="ledger-with"></p>
+  </aside>
+
+  <nav class="dial" id="dial" aria-label="Medium"></nav>
+  <script src="three.min.js"></script>
+  <script src="organism.js"></script>
+</body>
+</html>
